@@ -2,7 +2,7 @@
 
 int main()
 {
-    //to accept dimensions and calculate paintable walls
+    //to calculate paintable walls
     float l,w,h, wd,hd, ww,hw, wall_area, Adoor, Awindow, P_wallar, roof_area;
     printf("Please enter the dimensions of Room(in meters)\n");
     printf("Height of Room: ");
@@ -37,3 +37,4 @@ int main()
 
 
 }
+
