@@ -2,6 +2,7 @@
 
 int main()
 {
+    //to accept dimensions and calculate paintable walls
     float l,w,h, wd,hd, ww,hw, wall_area, Adoor, Awindow, P_wallar, roof_area;
     printf("Please enter the dimensions of Room(in meters)\n");
     printf("Height of Room: ");
@@ -25,7 +26,7 @@ int main()
 
     wall_area= 2*(l*h)+2*(w*h);
     Adoor= wd*hd;
-    Awindow= 2*(ww*hw);
+    Awindow= 2*(ww*hw); //both windows same size
     P_wallar= wall_area-(Adoor+Awindow);
     roof_area= l*w;
 
@@ -33,5 +34,6 @@ int main()
     printf("\nArea to be whitewashed(roof) is %.2f m^2\n",roof_area);
     
     return 0;
+
 
 }
