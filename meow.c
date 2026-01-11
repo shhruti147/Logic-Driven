@@ -1,4 +1,5 @@
 #include<stdio.h>
+//using function
 int meow(int times)
 {
   for(int i=1;i<=times;i++)
