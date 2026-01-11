@@ -2,14 +2,14 @@
 int meow(int times)
 {
   for(int i=1;i<=times;i++)
-  printf(meow\n);
+  printf("meow\n");
 }
 
 int main()
 {
   int n;
   printf("Whats the value for n?");
-  getchar(n);
+  n=getchar();
   meow(n);
-return 0;
+  return 0;
 }
